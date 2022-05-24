@@ -1,0 +1,50 @@
+nav {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 60px;
+  width: 100%;
+  position: fixed;
+
+  div.main {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    a.logo {
+      margin: 4px 8px;
+
+      
+      img {
+        height: 45px;
+      }
+    }
+
+    div.linkContainer {
+      display: flex;
+
+      a {
+        box-sizing: border-box;
+        display: block;
+        text-decoration: none;
+        color: white;
+        font-size: 24px;
+        border: 1px solid white;
+        margin: 0 10px;
+        height: 46px;
+        width: 160px;
+        text-align: center;
+        line-height: 45px;
+        border-radius: 10px;
+        transition: .2s;
+
+        &:hover {
+          color: $dark;
+          background-color: white;
+        }
+      }
+    }
+  }
+  
+}

@@ -1,0 +1,21 @@
+// variables
+$dark: #001130;
+
+// code standarization
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: $dark;
+  font-family: Raleway, sans-serif;
+}
+
+
+
+// imports 
+@import "_nav";
+@import "_hero";
