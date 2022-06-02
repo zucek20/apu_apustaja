@@ -1,39 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Meet the internet frog Apu Apustaja and his history.">
-  <title>Apu Apustaja</title>
-  <!-- CSS link -->
-  <link rel="stylesheet" href="styles/css/main.css">
-  <!-- Favicon link -->
-  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
-</head>
-<body>
-
-<nav>
-  <div class="main">
-    <a href="#hero" class="logo">
-      <img src="assets/apu_logo.png" alt="logo">
-    </a>
-    <div class="linkContainer">
-      <a href="#">History</a>
-      <a href="#">Gallery</a>
-      <a href="#">Newsletter</a>
-    </div>
-  </div>
-</nav>
-
-<section id="hero">
-  <div class="wrap">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meet the internet frog Apu Apustaja and his history.">
+    <title>Apu Apustaja</title>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="styles/css/main.css">
+    <!-- Favicon link -->
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+    <script src="scripts/script.js" defer></script>
+  </head>
+  <body>
+    
+    <nav>
+      <div class="main">  
+        <a href="#hero" class="logo">
+          <img src="assets/apu_logo.png" alt="logo">
+        </a>
+        <div class="linkContainer">
+          <a href="#history">History</a>
+          <a href="#galleryNav">Gallery</a>
+          <a href="#newsletter">Newsletter</a>
+        </div>
+      </div>
+    </nav>
+    
+    <section id="hero">
+      <div class="wrap">
+        <img src="assets/apu_face.png" alt="apu frog face">
     <header>
       <h1>Meet the<br> <span class="green">apu<br> apustaja</span></h1>
       <p>The finnish internet frog.</p>
-      <a href="#">Check out!</a>
+      <a href="#about">Check out!</a>
     </header>
   </div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <h2><i>Who is <span class="bold">Apu</span>?</i></h2>
+    <p><span class="bold">Apu Apustaja </span>("Help Helper" in English) is a poorly drawn variation of Pepe the Frog created in the style of Spurdo Spärde. While originally popularized on the Finnish image board Ylilauta, the character is also frequently posted on <span class="bold">4chan</span> where he is referred to as <span class="bold">"Helper."</span></p>
+  </div>
+</section>
+
+<main id="historyMain">
+  <div class="hands">
+    <img src="assets/apu_hands_simple.png" alt="">
+  </div>
+  
+  <article class="width" id="history">
+    <h2><i>History</i></h2>
+    <div class="historyWrap">
+      <img src="assets/history.png" alt="history">
+      <div class="innerHistoryWrap">
+        <p>The character is rumored to have originated from the Finnish image board <span class="bold">Ylilauta</span>. While no archived threads exist, Google search records indicate the phrase <span class="bold">"apu apustaja"</span> began appearing on the site in January 2016.</p>
+        <p class="column">On January 14th, 2016, the <span class="bold">"Apu Apustaja"</span> Facebook page was launched. On March 25th, an anonymous 4chan user submitted the Apu Apustaja version of Pepe captioned with a misspelled sentence about a "food help helper" to the /b/ (random) board. The following day, a similar thread was submitted to /b/ in which the character complains that his <span class="bold">"food help helper"</span> was missing. On April 19th, a thread featuring various illustrations of the character was submitted to the /int/ board. On October 2nd, 2016, an illustration of the character was submitted alongside <span class="bold">Pepe the Frog-themed parody</span> lyrics for the theme song from the science fiction television show Firefly to 4chan. The following day, a screenshot of the post reached the front page of the <span class="bold">/r/4chan</span> subreddit.</p>
+      </div>
+    </div>
+  </article>
+  
+</main>
+
+<figure>
+  <img src="assets/apu_together.png" alt="">
+</figure>
+
+<section id="gallery">
+  <div class="gradient width" id="galleryNav"></div>
+  <h2><i>Meme gallery</i></h2>
+  <div class="galleryWrap width" >
+    <img src="assets/gallery/apu1.jpg" alt="meme" id="meme">
+    <div id="select">
+      <img src="assets/gallery/apu1.jpg" alt="meme select" id="apu1">
+      <img src="assets/gallery/apu2.jpg" alt="meme select" id="apu2">
+      <img src="assets/gallery/apu3.jpg" alt="meme select" id="apu3">
+      <img src="assets/gallery/apu4.jpg" alt="meme select" id="apu4">
+      <img src="assets/gallery/apu5.jpg" alt="meme select" id="apu5">
+      <img src="assets/gallery/apu6.jpg" alt="meme select" id="apu6">
+      <img src="assets/gallery/apu7.jpg" alt="meme select" id="apu7">
+      <img src="assets/gallery/apu8.jpg" alt="meme select" id="apu8">
+    </div>
+  </div>
+</section>
+
+<section id="newsletter">
+  <div class="outerWrap width">
+    <div class="signIn">
+      <h2>Sign in to our<br>newsletter</h2>
+      <p>and discover many fascinating stories behind internet memes!</p>
+      <div class="input">
+        <input type="text" placeholder="Your e-mail" type="email">
+        <button>Submit</button>
+      </div>
+    </div>
+    <img src="assets/apu_nerd.png" alt="apu nerd">
+      
+  </div>
+  <footer>
+    &copy; Paweł Izdebski 2022
+    <a href="https://github.com/zucek20" target="_blank">Github</a>
+  </footer>
 </section>
 
 </body>

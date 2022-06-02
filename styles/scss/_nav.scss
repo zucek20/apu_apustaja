@@ -1,8 +1,10 @@
 nav {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
   height: 60px;
   width: 100%;
   position: fixed;
+  backdrop-filter: blur(15px);
+  z-index: 5;
 
   div.main {
     height: 100%;
@@ -29,13 +31,13 @@ nav {
         display: block;
         text-decoration: none;
         color: white;
-        font-size: 24px;
+        font-size: 22px;
         border: 1px solid white;
         margin: 0 10px;
-        height: 46px;
+        height: 40px;
         width: 160px;
         text-align: center;
-        line-height: 45px;
+        line-height: 39px;
         border-radius: 10px;
         transition: .2s;
 

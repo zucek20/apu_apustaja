@@ -1,0 +1,13 @@
+figure {
+  background-image: url("../../assets/path.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 500px;
+  margin-top: 250px;
+
+  img {
+    display: block;
+    margin: auto;
+  }
+}

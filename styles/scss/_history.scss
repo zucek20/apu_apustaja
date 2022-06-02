@@ -1,0 +1,49 @@
+main#historyMain {
+  background-image: url("../../assets/napis.svg");
+  background-position: left 0;
+  background-repeat: no-repeat;
+  margin-top: 80px;
+
+  div.hands {
+    background-image: url("../../assets/apu_background_hands.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 150px auto;
+
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 70%;
+    }
+  }
+
+  article {
+
+    h2 {
+      color: white;
+      margin-bottom: 60px;
+    }
+
+    div.historyWrap {
+      display: flex;
+
+      div.innerHistoryWrap {
+
+        p {
+          background-color: white;
+          box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.5), inset 0px 0px 100px rgba(255, 255, 255, 0.09), inset 3px 4px 10px rgba(255, 255, 255, 0.3), inset -4px -4px 10px rgba(0, 0, 0, 0.25);
+          border-radius: 15px;
+          font-size: 20px;
+          padding: 50px;
+          line-height: 32px;
+        }
+
+        p.column {
+          columns: 2;
+          margin-top: 115px;
+        }
+      }
+    }
+  }
+}

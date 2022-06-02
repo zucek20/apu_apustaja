@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -8,13 +9,36 @@
 body {
   background-color: #001130;
   font-family: Raleway, sans-serif;
+  color: #001130;
+}
+
+span.bold {
+  font-weight: 800;
+}
+
+.width {
+  max-width: 1200px;
+  margin: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h2 {
+  font-size: 70px;
+  text-align: center;
+  color: white;
 }
 
 nav {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
   height: 60px;
   width: 100%;
   position: fixed;
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  z-index: 5;
 }
 
 nav div.main {
@@ -52,13 +76,13 @@ nav div.main div.linkContainer a {
   display: block;
   text-decoration: none;
   color: white;
-  font-size: 24px;
+  font-size: 22px;
   border: 1px solid white;
   margin: 0 10px;
-  height: 46px;
+  height: 40px;
   width: 160px;
   text-align: center;
-  line-height: 45px;
+  line-height: 39px;
   border-radius: 10px;
   -webkit-transition: .2s;
   transition: .2s;
@@ -72,24 +96,32 @@ nav div.main div.linkContainer a:hover {
 section#hero {
   background: -webkit-gradient(linear, left top, left bottom, from(#00338E), to(#001130));
   background: linear-gradient(180deg, #00338E 0%, #001130 100%);
-  height: 80vh;
+  height: 60vh;
 }
 
 section#hero div.wrap {
-  background-image: url("../../assets/apu_hero_wide.png");
+  background-image: url("../../assets/apu_background.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
-  height: 80vh;
+  height: calc(70vh * 100vw);
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 140px;
+}
+
+section#hero div.wrap img {
+  display: block;
+  max-height: 500px;
+  max-width: calc(100vw / 3);
 }
 
 section#hero div.wrap header {
@@ -132,4 +164,237 @@ section#hero div.wrap header a:hover {
 
 span.green {
   color: #5C8E37;
+}
+
+section#about {
+  padding: 120px 0;
+}
+
+section#about div.wrap {
+  background: radial-gradient(50% 50% at 50% 50%, #002B77 0%, #001130 100%);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section#about div.wrap h2 {
+  color: white;
+  margin: 100px auto;
+}
+
+section#about div.wrap p {
+  background-color: white;
+  -webkit-box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.5), inset 0px 0px 100px rgba(255, 255, 255, 0.09), inset 3px 4px 10px rgba(255, 255, 255, 0.3), inset -4px -4px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.5), inset 0px 0px 100px rgba(255, 255, 255, 0.09), inset 3px 4px 10px rgba(255, 255, 255, 0.3), inset -4px -4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  font-size: 20px;
+  padding: 50px;
+  margin: 0 auto;
+  line-height: 32px;
+  max-width: 900px;
+  text-align: center;
+}
+
+main#historyMain {
+  background-image: url("../../assets/napis.svg");
+  background-position: left 0;
+  background-repeat: no-repeat;
+  margin-top: 80px;
+}
+
+main#historyMain div.hands {
+  background-image: url("../../assets/apu_background_hands.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 150px auto;
+}
+
+main#historyMain div.hands img {
+  display: block;
+  margin: 0 auto;
+  max-width: 70%;
+}
+
+main#historyMain article h2 {
+  color: white;
+  margin-bottom: 60px;
+}
+
+main#historyMain article div.historyWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main#historyMain article div.historyWrap div.innerHistoryWrap p {
+  background-color: white;
+  -webkit-box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.5), inset 0px 0px 100px rgba(255, 255, 255, 0.09), inset 3px 4px 10px rgba(255, 255, 255, 0.3), inset -4px -4px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.5), inset 0px 0px 100px rgba(255, 255, 255, 0.09), inset 3px 4px 10px rgba(255, 255, 255, 0.3), inset -4px -4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  font-size: 20px;
+  padding: 50px;
+  line-height: 32px;
+}
+
+main#historyMain article div.historyWrap div.innerHistoryWrap p.column {
+  -webkit-columns: 2;
+          columns: 2;
+  margin-top: 115px;
+}
+
+figure {
+  background-image: url("../../assets/path.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 500px;
+  margin-top: 250px;
+}
+
+figure img {
+  display: block;
+  margin: auto;
+}
+
+section#gallery {
+  width: 900px;
+  margin: -300px auto 0;
+}
+
+section#gallery div.gradient {
+  position: relative;
+  z-index: -1;
+  background: radial-gradient(50% 50% at 50% 50%, #002B77 0%, #001130 100%);
+  height: 500px;
+  width: 900px;
+  -webkit-transform: translateY(400px);
+          transform: translateY(400px);
+}
+
+section#gallery div.galleryWrap {
+  margin: 60px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section#gallery div.galleryWrap img#meme {
+  display: block;
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+  height: 570px;
+}
+
+section#gallery div.galleryWrap div#select {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+section#gallery div.galleryWrap div#select img {
+  display: block;
+  width: 130px;
+  height: 130px;
+  margin: 6px;
+  -webkit-transition: .2s;
+  transition: .2s;
+  cursor: pointer;
+}
+
+section#gallery div.galleryWrap div#select img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+section#newsletter {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(38, 0, 100, 0)), to(#4F00B4));
+  background: linear-gradient(180deg, rgba(38, 0, 100, 0) 0%, #4F00B4 100%);
+  color: white;
+  margin-top: 200px;
+  padding-bottom: 310px;
+}
+
+section#newsletter .outerWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section#newsletter .outerWrap div.signIn {
+  margin-top: 90px;
+}
+
+section#newsletter .outerWrap div.signIn h2 {
+  text-align: start;
+  line-height: .9em;
+}
+
+section#newsletter .outerWrap div.signIn p {
+  font-size: 22px;
+  max-width: 500px;
+  margin-top: 40px;
+}
+
+section#newsletter .outerWrap div.signIn div.input {
+  background-color: white;
+  border-radius: 10px;
+  height: 55px;
+  margin-top: 100px;
+}
+
+section#newsletter .outerWrap div.signIn div.input input {
+  font-size: 24px;
+  background-color: #001130;
+  border: solid 3px white;
+  border-radius: 10px;
+  width: 379px;
+  height: 55px;
+  padding-left: 10px;
+  z-index: 2;
+  caret-color: white;
+  color: white;
+}
+
+section#newsletter .outerWrap div.signIn div.input input:focus {
+  outline: 2px solid white;
+}
+
+section#newsletter .outerWrap div.signIn div.input button {
+  font-size: 24px;
+  border-radius: 0 10px 10px 0;
+  height: 55px;
+  border: none;
+  padding: 0 20px;
+  z-index: 1;
+  -webkit-transition: .2s;
+  transition: .2s;
+  background-color: white;
+}
+
+section#newsletter .outerWrap div.signIn div.input button:hover {
+  cursor: pointer;
+  color: #6800ef;
+}
+
+section#newsletter footer {
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  padding-top: 240px;
+}
+
+section#newsletter footer a {
+  color: white;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+section#newsletter footer a:hover {
+  color: #ccc;
 }
