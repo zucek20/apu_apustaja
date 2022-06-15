@@ -16,6 +16,7 @@ body {
   background-color: $dark;
   font-family: Raleway, sans-serif;
   color: $dark;
+  overflow-x: hidden;
 }
 
 span.bold {
@@ -29,6 +30,7 @@ span.bold {
 
 html {
   scroll-behavior: smooth;
+  scroll-padding: 60px;
 }
 
 h2 {
@@ -45,3 +47,4 @@ h2 {
 @import "_figure";
 @import "_gallery";
 @import "_newsletter";
+@import "_media";

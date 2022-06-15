@@ -15,6 +15,11 @@ main#historyMain {
       display: block;
       margin: 0 auto;
       max-width: 70%;
+      max-height: 70%;
+    }
+
+    img.small {
+      display: none;
     }
   }
 
@@ -28,22 +33,31 @@ main#historyMain {
     div.historyWrap {
       display: flex;
 
+      img {
+        max-width: 400px;
+        max-height: 800px;
+      }
+
       div.innerHistoryWrap {
 
-        p {
+        div {
           background-color: white;
           box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.5), inset 0px 0px 100px rgba(255, 255, 255, 0.09), inset 3px 4px 10px rgba(255, 255, 255, 0.3), inset -4px -4px 10px rgba(0, 0, 0, 0.25);
           border-radius: 15px;
           font-size: 20px;
           padding: 50px;
           line-height: 32px;
+
+          h2 {display: none;}
         }
 
-        p.column {
+        div.column {
           columns: 2;
           margin-top: 115px;
         }
       }
     }
   }
+
+  
 }

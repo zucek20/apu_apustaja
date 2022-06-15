@@ -1,16 +1,9 @@
 section#gallery {
   width: 900px;
-  margin: -300px auto 0;
-
-  div.gradient {
-    position: relative;
-    z-index: -1;
-    background: radial-gradient(50% 50% at 50% 50%, #002B77 0%, #001130 100%);
-    height: 500px;
-    width: 900px;
-    transform: translateY(400px);
-  }
-
+  margin: 200px auto 0 auto ;
+  height: 800px;
+    background: radial-gradient(50% 50% at 50% 50%, #00338b 0%, #001130 100%);
+  
   div.galleryWrap {
     margin: 60px auto;
     display: flex;  
