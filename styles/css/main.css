@@ -214,6 +214,7 @@ section#hero div.wrap {
       -ms-flex-pack: center;
           justify-content: center;
   padding-top: 140px;
+  margin-bottom: 100px;
 }
 
 section#hero div.wrap img {
