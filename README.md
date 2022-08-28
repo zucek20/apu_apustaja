@@ -15,6 +15,10 @@ It also contains interactive <b>meme gallery</b> and newsletter mockup.
 2. SCSS
 3. JavaScript
 
+## Deployment
+
+You can view my project [Here](https://zucek20.github.io/apu_apustaja/)
+
 <hr/>
 
 Whole design of project is made by me in [Figma](https://www.figma.com/).
