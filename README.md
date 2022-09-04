@@ -18,12 +18,13 @@ The project contains simple HTML code for building the page. It has modular SCSS
 * SCSS
 * JavaScript
 
+
+## Design
+Whole design of project is made by me in Figma ([here](https://www.figma.com/file/rlBMhU9BSQ1DwvWIEVpczJ/Apu-Apustaja?node-id=0%3A1)) and Affinity suite.
+
 ## Deployment
 
 You can view my project deployed on gh pages [here](https://zucek20.github.io/apu_apustaja/).
 
-<hr/>
-
-Whole design of project is made by me in Figma ([here](https://www.figma.com/file/rlBMhU9BSQ1DwvWIEVpczJ/Apu-Apustaja?node-id=0%3A1)) and Affinity suite.
 
 
