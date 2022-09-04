@@ -1,7 +1,7 @@
 # Apu Apustaja OnePage
 
 ## What this project is about?
-This is a simple project of OnePage that tells about various things about <b>Apu Apustaja</b> meme, such as:
+🐸 This is a simple project of OnePage that tells about various things about <b>Apu Apustaja</b> meme, such as:
 
 * Who is Apu?
 * Origin
@@ -20,10 +20,10 @@ The project contains simple HTML code for building the page. It has modular SCSS
 
 ## Deployment
 
-You can view my project [Here](https://zucek20.github.io/apu_apustaja/)
+You can view my project deployed on gh pages [here](https://zucek20.github.io/apu_apustaja/).
 
 <hr/>
 
-Whole design of project is made by me in [Figma](https://www.figma.com/) and Affinity suite.
+Whole design of project is made by me in Figma ([here](https://www.figma.com/file/rlBMhU9BSQ1DwvWIEVpczJ/Apu-Apustaja?node-id=0%3A1)) and Affinity suite.
 
-🐸
+
