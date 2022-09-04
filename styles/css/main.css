@@ -194,7 +194,6 @@ div.responsiveNav a:hover {
 section#hero {
   background: -webkit-gradient(linear, left top, left bottom, from(#00338E), to(#001130));
   background: linear-gradient(180deg, #00338E 0%, #001130 100%);
-  height: 570px;
 }
 
 section#hero div.wrap {
